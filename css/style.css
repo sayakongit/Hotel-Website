@@ -79,6 +79,22 @@ p{
   clear: both;
 }
 
+.l-heading{
+  font-size: 40px;
+}
+
+/* padding */
+.py-1{
+  padding: 10px 0;
+}
+
+.py-2{
+  padding: 20px 0;
+}
+
+.py-3{
+  padding: 30px 0;
+}
 /* Navbar */
 .navbar{
   background-color: #333;
@@ -180,3 +196,82 @@ p{
   padding: 20px;
 }
 
+/* About page  */
+
+#about-info .info-right{
+  float: right;
+  width: 50%;
+  min-height: 100%;
+}
+
+#about-info .info-right img{
+  display: block;
+  margin: auto;
+  width: 80%;
+  border-radius: 20px;
+
+}
+
+#about-info .info-left{
+  float: left;
+  width: 50%;
+  min-height: 100%;
+}
+
+/* Testimonials */
+
+#testimonials{
+  height: 600px;
+  background: url('../img/test-bg.jpg') no-repeat center center/cover;
+  padding-top: 100px;
+}
+
+#testimonials h2{
+  color: #fff;
+  text-align: center;
+  padding-bottom: 40px;
+}
+
+#testimonials .testimonial img {
+  float: left;
+  width: 100px;
+  margin-right: 20px;
+  border-radius: 50%;
+}
+
+
+#testimonials .testimonial {
+  padding: 20px;
+  margin-bottom: 40px;
+  height: 140px;
+  border-radius: 10px;
+  opacity: 0.9;
+}
+
+/* forms  */
+#contact-form{
+  padding: 20px 0;
+}
+
+#contact-form .form-group{
+  margin-bottom: 20px;
+}
+
+#contact-form label{
+  margin-bottom: 5px;
+  display: block;
+}
+
+#contact-form input,
+#contact-form textarea{
+  width: 100%;
+  padding: 8px;
+  border: 1px #ddd solid;
+  border-radius: 5px;
+}
+
+#contact-form input:focus,
+#contact-form textarea:focus{
+  outline: none;
+  border-color: #f7c08a;
+}

@@ -1,0 +1,71 @@
+.navbar .logo{
+  float: none;
+  text-align: center;
+}
+
+.navbar ul{
+  float: none;
+}
+
+.navbar ul li{
+  float: none;
+  text-align: center;
+}
+
+.navbar ul li a{
+  display: block;
+  padding: 0.5rem;
+  border-bottom: #444 solid 1px;
+}
+
+.showcase{
+height: 100%;
+}
+
+.showcase .showcase-content {
+  color: #fff;
+  text-align: center;
+  padding-top: 70px;
+  padding-bottom: 30px ;
+}
+
+#home-info .info-img {
+  display: none;
+}
+
+#home-info .info-content {
+  float: none;
+  width: 100%;
+  text-align: center;
+  padding: 50px 30px;
+  overflow: hidden;
+}
+
+.box {
+  float: none;
+  width: 100%;
+  padding: 30px;
+  text-align: center;
+}
+
+#about-info .info-left,
+#about-info .info-right {
+  float: none;
+  width: 100%;
+}
+
+#about-info .info-left{
+ text-align: center;
+ margin-bottom: 20px;
+}
+
+#contact-form h1, 
+#contact-form p {
+  text-align: center;
+}
+
+#contact-form .btn {
+  display: block;
+  margin: auto;
+  width: 100%;
+}

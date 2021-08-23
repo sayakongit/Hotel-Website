@@ -209,7 +209,6 @@ p{
   margin: auto;
   width: 80%;
   border-radius: 20px;
-
 }
 
 #about-info .info-left{
@@ -221,7 +220,7 @@ p{
 /* Testimonials */
 
 #testimonials{
-  height: 600px;
+  height: 100%;
   background: url('../img/test-bg.jpg') no-repeat center center/cover;
   padding-top: 100px;
 }
@@ -234,7 +233,7 @@ p{
 
 #testimonials .testimonial img {
   float: left;
-  width: 100px;
+  width: 80px;
   margin-right: 20px;
   border-radius: 50%;
 }
@@ -243,12 +242,13 @@ p{
 #testimonials .testimonial {
   padding: 20px;
   margin-bottom: 40px;
-  height: 140px;
+  height: 100%;
   border-radius: 10px;
   opacity: 0.9;
 }
 
-/* forms  */
+/* Contact page  */
+
 #contact-form{
   padding: 20px 0;
 }
